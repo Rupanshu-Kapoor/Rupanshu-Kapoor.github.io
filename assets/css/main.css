@@ -125,7 +125,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -2658,6 +2658,12 @@ input, select, textarea {
 					margin-right: auto;
 				}
 
+		header.major h3, h5{
+			text-align: left;
+			margin-top: -10px;
+		}
+
+		
 		header.major p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
@@ -2672,6 +2678,9 @@ input, select, textarea {
 				margin-right: auto;
 			}
 
+			
+			
+	
 	footer.major {
 		margin-top: 3em;
 	}
@@ -3456,12 +3465,22 @@ input, select, textarea {
 
 		}
 
+section.main.special p {
+	text-align: left;
+}
+
+#projects {
+    font-family: sans-serif;
+	font-size: 16px;
+}
+
 /* Main */
 
 	#main {
 		background-color: #ffffff;
 		color: #636363;
-		font-family: Helvetica;
+		font-family: sans-serif;
+		/* font-size: 18px;f */
 		border-radius: 0.25em;
 	}
 
