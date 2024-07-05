@@ -3461,6 +3461,7 @@ input, select, textarea {
 	#main {
 		background-color: #ffffff;
 		color: #636363;
+		font-family: Helvetica;
 		border-radius: 0.25em;
 	}
 
